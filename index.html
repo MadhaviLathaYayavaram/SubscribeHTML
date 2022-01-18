@@ -1,0 +1,151 @@
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Subscribe Card</title>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  background-color: black;
+  align-content: center;
+  height: 800px;
+  width: 700px;
+ 
+  
+}
+
+   .flex-container {
+    position: absolute;
+    align-self: center;
+   display: flex;
+   background-color: bisque;
+   border: solid rgb(233, 17, 125);
+   border-radius: 2px;
+   padding-left: 5px;
+      flex-basis: content;
+   flex-direction:column;    
+   row-gap: 10px; 
+   width: auto;
+   max-width: 550px;
+   align-items: left;
+   margin:auto;
+}
+
+label {
+  display: block; 
+  float: left; 
+ 
+  color: rgb(30, 30, 44);
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+   
+}
+
+ .aligned {
+        vertical-align: middle;
+       
+}
+
+.button {
+      margin-left: 200px;
+      width: 180px;
+      background-color: rgb(145, 130, 214);
+  }
+ h3 {
+   padding: 5px;
+   background-color: orangered;
+     color:rgb(245, 247, 252);
+     align-self: center;
+ }
+
+.hidetext {
+border-top: none;
+border-left: none;
+border-right: oldlace;
+background-color: transparent;
+outline: none;
+font-family: 'Great Vibes', cursive;
+font-size: 25px;
+width: 200px; 
+
+}
+
+.citystatezip {
+  border-top: none;
+border-left: none;
+border-right: oldlace;
+background-color: transparent;
+outline: none;
+font-family: 'Great Vibes', cursive;
+font-size: 25px;
+width: 120px; 
+}
+
+       </style>
+       <body>
+          <script>
+            
+          </script>
+
+        <div style="overflow-x:auto;">
+
+         
+            <form id="myform">
+               
+            <div class="flex-container">
+                <h3>Yes, I want to subscribe to Mag-O-Zine</h1>
+                 <div>
+              
+                <input type="text" class="hidetext" id="fname" name="fname" width="50px"></input>
+               
+             <input style="margin-left: 15px;"    type="text" class="hidetext" id="lname" name="lname"></input>
+             <br>
+             <label for="fname" style="width: 200px;">First name </label>  
+             <label for="lname" style="margin-left: 15px;"  style="width: 200px;" >Last name</label>   
+            </div>
+              <div>
+                <input style="width: 410px;"    type="text" class="hidetext" id="address" name="address"></input>
+                <br>
+                <label for="address" style="width: 410px;">Address</label>   
+                  <br>
+                <div>
+              
+                <input type="text" class="citystatezip" id="city" name="city"></input>
+               <input style="margin-left: 15px;" type="text" class="citystatezip" id="state" name="state"></input>
+               <input style="margin-left: 15px;" type="text" class="citystatezip" id="zip" name="zip"></input>
+
+               <div>
+               <label for="city" style="width: 120px;">City </label>  
+               <label for="state" style="margin-left:15px;  width:120px;">State</label>
+
+               <label for="zip" style="margin-left:15px; width: 120px;">Zip</label>
+              </div>
+              </div>
+              <br><br>
+              <div>
+                <label for="duration">Subscribe For : </label> 
+                 
+                  <input type ="radio" name="duration"> 1 year ($19.95)</input>
+                  <input type="radio"  name="duration">2 years ($35)</input>
+                                                                       </div>
+                                                                       <br>
+                                                                       
+                    <div>
+                      <label for="moreinfo" width="100%">Send me more Information about:</label> <br> 
+                        <br>                                                
+                        <input type ="checkbox" name="moreinfo">Computer-Zine</input><br>
+                        <input type="checkbox"  name="moreinfo">Fishing-Zine</input><br>
+                        <input type="checkbox"  name="moreinfo">Cat-O-Zine</input>
+                                                                                                        
+                    </div>   <br><br>
+                    
+              </div>
+            </form>  
+            </div>
+                       
+       </body>
+
+       </head>
+  
